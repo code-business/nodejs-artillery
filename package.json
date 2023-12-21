@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-artillery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "load-test": "artillery run --output report.json loadtests/test1.yml",
+    "load-test-report": "artillery report loadtests/report.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
