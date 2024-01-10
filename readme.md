@@ -1,6 +1,6 @@
 This is a demo [Node.js](https://nodejs.org/) app for load testing with [Artillery.js](https://www.artillery.io/)
 
-# Start Development Derver
+# Start Development Server
 
 ```sh
 npm run start:dev
