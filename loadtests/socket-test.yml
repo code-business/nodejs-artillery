@@ -1,0 +1,16 @@
+config:
+  target: "http://localhost:8080"
+  phases:
+    - duration: 20
+      arrivalRate: 5
+      name: "Simple Socket.io Test"
+scenarios:
+  - name: "Connect and send a bunch of messages"
+    engine: socketio
+    flow:
+      - loop:
+          - emit:
+              channel: "message"
+              data: "hello world!"
+          - think: 1
+        count: 50

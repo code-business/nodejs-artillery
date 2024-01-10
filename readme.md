@@ -9,22 +9,10 @@ npm run start:dev
 # Run Loadtest
 
 ```sh
-npm run load-test
-```
-
-OR
-
-```sh
 artillery run --output <output_filename.json> <load_test_filename.yml>
 ```
 
 ### Generate HTML Report
-
-```sh
-npm run load-test-report
-```
-
-OR
 
 ```sh
 artillery report <output_filename.json>
