@@ -21,7 +21,7 @@ artillery report <output_filename.json>
 ### Example
 
 ```sh
-cd loadtests && artillery run --output report.json test1.yml
+cd loadtests && artillery run --output report.json simple-test.yml
 ```
 
 ```sh
