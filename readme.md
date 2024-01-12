@@ -1,4 +1,5 @@
-This is a demo [Node.js](https://nodejs.org/) app for load testing with [Artillery.js](https://www.artillery.io/)
+This is a demo [Node.js](https://nodejs.org/) app for load testing with [Artillery.js](https://www.artillery.io/)\
+Please refer to this [article](https://code-b.dev/blog/load-testing-artillery) for more information.
 
 # Start Development Server
 
